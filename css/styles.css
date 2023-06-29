@@ -1,7 +1,162 @@
-:root {
-    --background-color: #FFFFFF;
-    --active-link-color: #4D5AE5;
-    --active-button-colore: #404BBF;
-    --primary-font: "Roboto", sans-serif;
-    --text-color: #434455;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #2E2F42;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* -------HEADER--------- */
+
+
+/* LOGO */
+
+.logo {
+    color: #2E2F42;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-accent {
+    color: #4D5AE5;
+}
+
+
+/* NAVIGATION */
+
+.header-menu-item {
+    list-style-type: none;
+}
+
+.header-menu-item :hover,
+.header-menu-item :active {
+    color: #404BBF;
+}
+
+
+.header-menu-link {
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+
+.header-contacts-item :hover,
+.header-contacts-item :active {
+    color: #404BBF;
+}
+
+.header-contacts-item {
+    list-style-type: none;
+    font-style: normal;
+}
+
+.header-contacts-link {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*------- MAIN ----------*/
+
+
+/* BUTTONS */
+
+
+.main-buttons {
+    list-style-type: none;
+}
+
+.button-item :hover,
+.button-item :active {
+    color: #FFF;
+    background-color: #404BBF;
+}
+
+.button {
+    cursor: pointer;
+    color: #4D5AE5;
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    border: 1px solid #E7E9FC;
+    background-color: #F4F4FD;
+}
+
+/* CONTENT */
+
+.content-list {
+    list-style-type: none;
+    background-color: #FFF;
+}
+
+.content-items {
+    border: 1px solid #E7E9FC;
+}
+
+.content-item-title {
+    color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.content-item-text {
+    color: v#434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+/* ------FOOTER------ */
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
