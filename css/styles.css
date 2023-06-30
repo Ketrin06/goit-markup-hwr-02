@@ -63,11 +63,11 @@ body {
     color: #2E2F42;
 }
 
-.header-menu-link :hover {
+.header-menu-link:hover {
     color: #404bbf;
 }
 
-.header-menu-link :focus {
+.header-menu-link:focus {
     color: #404bbf;
 }
 
@@ -82,11 +82,11 @@ body {
     color: #434455;
 }
 
-.header-contacts-link :hover {
+.header-contacts-link:hover {
     color: #404bbf;
 }
 
-.header-contacts-link :focus {
+.header-contacts-link:focus {
     color: #404bbf;
 }
 
@@ -114,11 +114,11 @@ body {
     cursor: pointer;
 }
 
-.hero-button :hover {
+.hero-button:hover {
     background-color: #404BBF;
 }
 
-.hero-button :focus {
+.hero-button:focus {
     background-color: #404BBF;
 }
 
@@ -203,7 +203,7 @@ body {
     cursor: pointer;
 }
 
-.button-item :hover {
+.button-item:hover {
     color: #FFFFFF;
     background-color: #404BBF;
 }
