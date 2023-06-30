@@ -192,7 +192,7 @@ body {
 
 /* BUTTONS PORTOFOLIO */
 
-.button-item {
+.button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -203,12 +203,12 @@ body {
     cursor: pointer;
 }
 
-.button-item:hover {
+.buttoт:hover {
     color: #FFFFFF;
     background-color: #404BBF;
 }
 
-.button-item :focus {
+.button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
