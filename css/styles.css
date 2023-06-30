@@ -56,18 +56,15 @@ body {
 
 }
 
-.header-menu-link :hover,
+.header-menu-link :hover {
+    color: var(--secondary-color);
+}
+
 .header-menu-link :focus {
     color: var(--secondary-color);
 }
 
-.header-menu-item :hover,
-.header-contacts-item :focus {
-    color: var(--secondary-color);
-}
-
-
-.header-menu-link {
+. .header-menu-link {
     color: var(--text-color);
     font-weight: 500;
     font-size: 16px;
@@ -79,12 +76,10 @@ body {
     font-style: normal;
 }
 
-.header-contacts-item :hover,
-.header-contacts-item :focus {
-    color: var(--secondary-color);
-}
+
 
 .header-contacts-item {
+    color: var(--text-color);
     list-style-type: none;
     font-style: normal;
 }
