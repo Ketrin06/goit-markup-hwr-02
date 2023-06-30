@@ -222,7 +222,7 @@ body {
 }
 
 .button {
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     color: #4D5AE5;
     text-align: center;
@@ -248,6 +248,7 @@ body {
 
 .content-item-title {
     color: var(--text-color);
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -255,7 +256,6 @@ body {
 
 .content-item-text {
     color: v#434455;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
