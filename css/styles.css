@@ -24,6 +24,10 @@ body {
     overflow: hidden;
 }
 
+.list {
+    list-style: none;
+}
+
 /*  */
 
 
@@ -51,88 +55,70 @@ body {
 
 /* NAVIGATION */
 
-.list {
-    list-style: none;
-
-}
-
-.header-menu-link :hover {
-    color: var(--secondary-color);
-}
-
-.header-menu-link :focus {
-    color: var(--secondary-color);
-}
-
-. .header-menu-link {
-    color: var(--text-color);
+.header-menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-menu-link :hover {
+    color: #404bbf;
+}
+
+.header-menu-link :focus {
+    color: #404bbf;
 }
 
 .header-contacts {
     font-style: normal;
 }
 
-
-
-.header-contacts-item {
-    color: var(--text-color);
-    list-style-type: none;
-    font-style: normal;
-}
-
-.header-contacts-link :focus {
-    color: var(--secondary-color);
+.header-contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .header-contacts-link :hover {
-    color: var(--secondary-color);
+    color: #404bbf;
 }
 
-.header-contacts-link {
-    color: #434455;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
+.header-contacts-link :focus {
+    color: #404bbf;
 }
 
 /*------- MAIN ----------*/
 .hero {
-    background: #2E2F42;
+    background-color: #2e2f42;
 }
 
 .hero-title {
-    color: #FFF;
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.02em;
     text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
 .hero-button {
-    font-family: inherit;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    cursor: pointer;
-    color: #FFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
+    color: #ffffff;
 }
 
 .hero-button :hover {
-    background-color: var(--secondary-color)
+    background-color: #404BBF;
 }
 
 .hero-button :focus {
-    background-color: var(--secondary-color);
-
+    background-color: #404BBF;
 }
 
 .features-list {
@@ -169,96 +155,78 @@ body {
     list-style-type: none;
 }
 
+
 .team {
     background-color: #F4F4FD;
 }
 
 .team-title {
-    color: var(--text-color);
-    text-align: center;
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-}
-
-.team-list {
-    list-style-type: none;
+    color: #2e2f42;
 }
 
 .team-item {
-    background-color: #FFF;
+    background-color: #FFFFFF;
 }
 
 .team-item-title {
-    color: var(--text-color);
-    font-size: 20px;
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .team-item-text {
-    color: #434455;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+
 
 /* BUTTONS PORTOFOLIO */
 
-
-.main-buttons {
-    list-style-type: none;
-}
-
-.button-item :hover,
-.button-item :focus {
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--secondary-color);
-}
-
-.button {
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
-    color: #4D5AE5;
-    text-align: center;
-    font-size: 16px;
-    font-family: Roboto;
+.button-item {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border: 1px solid #E7E9FC;
+    color: #4d5ae5;
     background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.button-item :hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.button-item :focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 /* CONTENT */
 
-.content-list {
-    list-style-type: none;
-    background-color: #FFF;
-}
-
-.content-items {
-    border: 1px solid #E7E9FC;
-}
-
 .content-item-title {
-    color: var(--text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .content-item-text {
-    color: v#434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 
