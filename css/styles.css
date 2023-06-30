@@ -1,7 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+:root {
+    --text-color: #2E2F42;
+    --secondary-color: #404BBF;
 }
 
 .link {
@@ -33,7 +39,7 @@ body {
 /* LOGO */
 
 .logo {
-    color: #2E2F42;
+    color: var(--text-color);
     font-size: 18px;
     font-family: Raleway;
     font-weight: 800;
@@ -60,7 +66,7 @@ body {
 
 
 .header-menu-link {
-    color: #2E2F42;
+    color: var(--text-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -118,7 +124,7 @@ body {
 }
 
 .features-item-title {
-    color: #2E2F42;
+    color: var(--text-color);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -133,7 +139,7 @@ body {
 }
 
 .projects-title {
-    color: #2E2F42;
+    color: var(--text-color);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
@@ -146,7 +152,7 @@ body {
 }
 
 .team-title {
-    color: #2E2F42;
+    color: var(--text-color);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
@@ -163,7 +169,7 @@ body {
 }
 
 .team-item-title {
-    color: #2E2F42;
+    color: var(--text-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -217,7 +223,7 @@ body {
 }
 
 .content-item-title {
-    color: #2E2F42;
+    color: var(--text-color);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
